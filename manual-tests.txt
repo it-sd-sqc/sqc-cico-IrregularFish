@@ -69,3 +69,12 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * Field should ignore non-numerical input
+
+# Module 5: Clean shutdown program when window is closed
+
+## Test steps
+1. Build and run CiCo
+2. Close window
+
+## Expected results
+* Program should shut down in bash after JFrame is closed without having to use ctrl+c in bash
