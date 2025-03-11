@@ -78,3 +78,20 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * Program should shut down in bash after JFrame is closed without having to use ctrl+c in bash
+
+# Module 6: Aesthetic and minimalist design
+
+## Test steps
+1. Build and run CiCo.
+2. Observe the color scheme of the main panel.
+3. Enter 00000000 into the field and click Update.
+4. Observe the color scheme of the status panel.
+5. Wait for 10 seconds for the panel to automatically return to main.
+6. Enter 99999999 into the field and click Update.
+7. Observe the color scheme of the error panel.
+
+## Expected results
+* The application should use a professional, consistent monochromatic color scheme with neutral colors.
+* Text should be clearly readable against all backgrounds.
+* The error panel should be visually distinct without using overly harsh colors.
+* All buttons and interactive elements should maintain proper contrast for usability and consistency purposes.
